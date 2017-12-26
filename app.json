@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/qbz/qbz",
+    "pages/lhb/lhb",
+    "pages/dianbo/dianbo",
+    "pages/live/live",
+    "pages/chenhao/chenhao",
+    "pages/list/list",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1b1b1f",
+    "navigationBarTitleText": "小蜂财经",
+    "navigationBarTextStyle": "white"
+  }
+}

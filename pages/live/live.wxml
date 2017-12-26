@@ -1,0 +1,46 @@
+<!--index.wxml-->
+<view class="container">
+ <view class='head-box'>
+  <view class='header'>
+    <include wx:if="{{flag}}" src="../BCLVideo/video.wxml" />
+    <view class='audio' wx:else>
+      <image class='audio-img' src='http://m8.zqt888.cn/images/live/yinpin.jpg'></image>
+      <audio src="{{src}}" id="myAudio" loop></audio>
+    </view>
+  </view>
+  <view class='toll'>
+    <view class='info-title'>留言互动</view>
+    <view wx:if='{{flag}}' hover-class='toll-btn-hover' class='toll-btn' bindtap='changeVideo'>
+      <image class='icon-tool' src='../../images/icon_audio.png'></image>
+      <view class='tool-text'>音频</view>
+    </view>
+     <view wx:else hover-class='toll-btn-hover' class='toll-btn' bindtap='changeVideo'>
+      <image class='icon-tool' src='../../images/icon_video.png'></image>
+      <view class='tool-text'>视频</view>
+    </view>
+  </view>
+ </view>
+  <view class='info-box'>
+    <view class='scroll-view' scroll-y scroll-with-animation="true" lower-threshold="20">
+      <block wx:for="{{leaveMesgs}}" wx:for-item="leaveMesg">
+        <view class='info-item'>
+          <image class='ask-headimg' src="{{'http://m.91bee.com/'+leaveMesg.headerImg}}"></image>
+          <view class='ask-box'>
+            <view class='ask-title'>
+              <text class='ask-name'> {{leaveMesg.askUser!=""?leaveMesg.askUser:leaveMesg.askUserId}}</text>
+              <text class='ask-time'>{{leaveMesg.askTimeStr}}</text>
+            </view>
+            <view class='ask-content'>
+              {{leaveMesg.askContent}}
+            </view>
+          </view>
+        </view>
+      </block>
+
+    </view>
+  </view>
+  <view class="footer">
+    <input class='input-question' bindconfirm='submitQuestion' confirm-type="send" maxlength="150" bindinput="bindKeyInput" value='{{questionContent}}' placeholder="输入您的问题" />
+    <view type="default" bindtap='submitQuestion' class='submit-btn' hover-class="button-hover"> 发送 </view>
+  </view>
+</view>

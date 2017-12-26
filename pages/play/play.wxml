@@ -1,0 +1,29 @@
+<view class="container">
+  <view class='video-box'>
+    <include src="../BCLVideo/video.wxml" />
+  </view>
+  <view class='info-box'>
+    <view class='info-title'>互动</view>
+    <scroll-view scroll-y scroll-with-animation="true" bindscrolltolower="onScrollLower" lower-threshold="20">
+      <block wx:for="{{leaveMesgs}}" wx:for-item="leaveMesg">
+        <view class='info-item'>
+          <image class='ask-headimg' src="{{'http://m.91bee.com/'+leaveMesg.headerImg}}"></image>
+          <view class='ask-box'>
+            <view class='ask-title'>
+              <text class='ask-name'> {{leaveMesg.askUser!=""?leaveMesg.askUser:leaveMesg.mobilePhone}}</text>
+              <text class='ask-time'>{{leaveMesg.askTimeStr}}</text>
+            </view>
+            <view class='ask-content'>
+             {{leaveMesg.askContent}}
+            </view>
+          </view>
+        </view>
+      </block>
+    
+    </scroll-view>
+  </view>
+  <view class="footer">
+    <input class='input-question' maxlength="150" placeholder="输入您的问题" />
+    <view type="default" class='submit-btn' hover-class="button-hover"> 发送 </view>
+  </view>
+</view>

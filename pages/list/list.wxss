@@ -1,0 +1,51 @@
+@import "./list-template/list-template.wxss";
+@import "./list-empty/list-empty.wxss";
+page{
+  height: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-size: 24rpx;
+  height: 100%;
+ 
+} 
+.btn-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 90rpx;
+    line-height: 90rpx;
+    background-color: #273947;
+    color: #fff;
+    text-align: center;
+    font-size: 28rpx;
+    display: -webkit-box;
+}
+.scroll-box{
+ display: flex;
+ flex: 1;
+}
+
+.navigator-hover {
+    width: 247rpx;
+    border-bottom: 3px solid #00b997;
+}
+
+.navigator {
+    width: 247rpx;
+    border-bottom: 3px solid #273947;
+}
+.line-vetical{
+  width: 4rpx;
+  height: 40rpx;
+  background-color: #000;
+  margin-top: 25rpx;
+}
+.video-list{
+  /* height: 1090rpx; */
+}
+.no-more-data{
+  text-align: center;
+}

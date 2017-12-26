@@ -1,0 +1,57 @@
+<view class='container'>
+  <view class='banner'>
+    <image class='banner-img' src='../../images/ch-banner.jpg'></image>
+  </view>
+  <view class='topic'>
+    <text class='t-title'>本期话题</text>
+    <view class='t-des'>主力是如何拿到筹码筹码的呢</view>
+    <view class='t-text'>
+      假的假的假的天性，纵容你逐利的本能，你是狼，股市是你的战场。释放你嗜血的天性，纵容你逐利的本能，你是狼，股市是你 假的假的假的天性，纵容你逐利的本能，你是狼，股市是你的战场。释放你嗜血的天性，纵容你逐利的本能，你是狼，股市是你 假的假的假的天性，纵容你逐利的本能，你是狼，股市是你的战场。释放你嗜血的天性，纵容你逐利的本能，你是狼，股市是你 假的假的假的天性，纵容你逐利的本能，你是狼，股市是你的战场。释放你嗜血的天性，纵容你逐利的本能，你是狼，股市是你 假的假的假的天性，纵容你逐利的本能，你是狼，股市是你的战场。释放你嗜血的天性，纵容你逐利的本能，你是狼，股市是你
+    </view>
+  </view>
+  <view class='class'>
+    <view class='title'>
+      <image class='title-img' src='../../images/left-icon.png'></image>
+      <text>课程介绍</text>
+      <image class='title-img' src='../../images/right-icon.png'></image>
+    </view>
+    <view class='c-text'>
+      <view class='c-text-box'>
+        <text>释放你嗜血的天性，</text>
+        <text>纵容你逐利的本能，</text>
+        <text>你是狼，</text>
+        <text>股市是你的战场。</text>
+        <text>听《狼帅的股理谐说》，</text>
+        <text>玩赢家的游戏。</text>
+         <view class='c-text-bottom'>
+          <view class='c-text-strong'>开课地址</view>
+          <text>通过添加助教微信号</text>
+          <text> <text class='c-weixin' selectable='true'> zqt178888</text> 咨询，报名课程</text>
+          <text class='c-text-strong'>开课形式</text>
+          <text>视频点播</text>
+         </view>
+      </view>
+    </view>
+  </view>
+ 
+  <view class='personal'>
+    <view class='title'>
+      <image class='title-img' src='../../images/left-icon.png'></image>
+      <text>导师风采</text>
+      <image class='title-img' src='../../images/right-icon.png'></image>
+    </view>
+    <view class='p-img'>
+      <image class='p-head' src='../../images/ch-head.png'></image>
+    </view>
+    <view class='p-text'>
+      <view>  行为金融学家，知名财经大V。1997年发明筹码分布、成本均线等技术分析指标并主持设计指南针软件；2002开始研发天狼50产品，获得市场和用户广泛好评，被粉丝尊称为狼帅。</view>
+      <view>现任鼎信汇金（北京）投资管理有限公司总经理，带领团队管理多只私募基金，并与国泰基金深度合作，历经三年穿越牛熊，共同将国泰聚信价值优势基金打造成一款荣获“2016年度开放式混合型金牛基金”奖的明星基金。</view>
+    </view>
+  </view>
+  <view class='remind'>
+  <image class='r-img' src='../../images/ch-bottom.jpg'></image>
+  <view class='r-weixin-l'> <text selectable='true'>zqt178888</text></view>
+  <text class='r-weixin-g' selectable='true'> zqt178888</text>
+  <text class='r-bottom'>添加助教微信号<text selectable='true' class='r-bottom-weixin'>zqt178888</text>咨询</text>
+  </view>
+</view>

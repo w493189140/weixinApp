@@ -1,0 +1,145 @@
+.container{
+  background-color: #152539;
+}
+.banner-img{
+  width: 100%;
+  height: 974rpx;
+}
+.topic{
+  color: #fff;
+  text-align: center;
+  margin-top: -80rpx;
+}
+
+.t-title{
+  font-size: 34rpx;
+  color: rgba(248, 225, 189, 0.8);
+  line-height: 52rpx;
+}
+.t-des{
+  width: 610rpx;
+  height: 75rpx;
+  line-height: 75rpx;
+  color: #fff;
+ font-size:36rpx;
+  background-color: rgb(218, 190, 103);
+  border-radius: 33rpx;
+  margin: 16rpx auto;
+  letter-spacing: 3rpx;
+}
+.t-text{
+  padding:0 30rpx;
+  font-size: 28rpx;
+  text-align: left;
+  line-height: 44rpx;
+}
+
+.title{
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: row;
+  color: #dabe67;
+  font-size: 58rpx;
+  padding: 0 80rpx;
+  justify-content: space-around;
+}
+.title-img{
+width: 130rpx;
+height: 50rpx;
+margin-top: 20rpx;
+}
+.c-text{
+  margin: auto;
+  margin-top: 40rpx;
+  background-color: #dde5ee;
+  width: 610rpx;
+  border-radius: 40rpx;
+  /* height: 860rpx; */
+  padding: 20rpx;
+  color: #0d1a27;
+  font-size: 34rpx;
+  min-height: 200rpx;
+  line-height: 60rpx;
+}
+.c-text-box{
+  height: 100%;
+  width: 100%;
+  padding: 40rpx 30rpx 40rpx;
+  border-radius: 30rpx;
+  border: 6rpx dashed #4a6582;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+.c-text-bottom{
+  margin-top: 40rpx;
+  display: flex;
+  flex-direction: column;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  border-top: 4rpx dashed #4a6582;
+  
+}
+.c-text-strong{
+  font-weight: 600;
+  margin: 20rpx auto 15rpx;
+  font-size: 32rpx;
+  letter-spacing: 2rpx;
+}
+.c-weixin{
+  color: #a40000;
+  font-weight: 600;
+}
+.p-img{
+  text-align: center;
+  padding: 40rpx 0 40rpx 40rpx;
+}
+.p-head{
+  width: 556rpx;
+  height: 358rpx;
+}
+.p-text{
+  color: #C1C9D2;
+  font-size: 32rpx;
+  padding:0 50rpx 50rpx;
+  line-height: 50rpx;
+  text-indent: 2em;
+}
+.remind{
+  position: relative;
+}
+.r-img{
+  width: 100%;
+  height: 1116rpx;
+}
+.r-weixin-l{
+  position: absolute;
+  background-color: #a40000;
+  color: #fff;
+  padding: 5rpx 20rpx;
+  top: 220rpx;
+  left: 470rpx;
+  font-size: 34rpx;
+  font-weight: 600;
+  border-radius: 15rpx;
+}
+.r-weixin-g{
+  position: absolute;
+  bottom: 280rpx;
+  left: 240rpx;
+  color: #fff;
+  font-size: 74rpx;
+  font-weight: 600;
+}
+.r-bottom{
+  position: absolute;
+  bottom: 150rpx;
+  color: #000;
+  left: 150rpx;
+  font-size: 34rpx;
+}
+.r-bottom-weixin{
+  color: #a40000;
+  font-weight: 600;
+}

@@ -1,0 +1,7 @@
+<template name="list-empty">
+    <view class='list-empty'>
+            <image class='empty-img' src='../../images/tips.png'></image>
+            <text class='empty-tip'>您当前还未购买，无法查看课程哦~</text>
+            <text class='empty-btn'>去购买~</text>
+    </view>
+</template>

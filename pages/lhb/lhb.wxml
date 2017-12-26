@@ -1,0 +1,261 @@
+<view class='container'>
+  <view class='header'>
+    <image class='head-banner' src='http://m8.zqt888.cn/images/product/top_bg.jpg'></image>
+    <swiper indicator-dots="true" indicator-color="#548BEE" indicator-active-color="#FFf" circular="false" autoplay="{{false}}" current="0" duration="{{500}}">
+      <swiper-item>
+        <view class='swiper-item'>
+          <view class='s-top-box-left'>
+            <view class='s-title'>龙虎榜实战训练营</view>
+            <view class='s-price'>
+              <text>¥ </text>
+              <text class='s-prive-text'>2980 </text>
+            </view>
+            <view class='s-date'>服务期限：30天</view>
+          </view>
+          <view class='s-true'>
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#548BEE' />
+              <text>龙虎榜每日金股池</text>
+            </view>
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#548BEE' />
+              <text>龙虎榜精准日报</text>
+            </view>
+
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#548BEE' />
+              <text>龙虎榜基础教程</text>
+            </view>
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#548BEE' />
+              <text>龙虎榜专业服务平台</text>
+            </view>
+          </view>
+         
+        </view>
+      </swiper-item>
+      <!-- <swiper-item> 
+        <view class='swiper-item'>
+          <view class='s-top-box-center'>
+            <view class='s-title'>龙虎榜实战训练营</view>
+            <view class='s-price'>
+              <text>¥ </text>
+              <text class='s-prive-text'>5980 </text>
+            </view>
+            <view class='s-date'>服务期限：30天</view>
+          </view>
+          <view class='s-true'>
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#FFCA43' />
+              <text>龙虎榜精选股票</text>
+            </view>
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#FFCA43' />
+              <text>龙虎日报</text>
+            </view>
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#FFCA43' />
+              <text>龙虎榜实战课程</text>
+            </view>
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#FFCA43' />
+              <text>龙虎榜基础教程</text>
+            </view>
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#FFCA43' />
+              <text>服务平台</text>
+            </view>
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#FFCA43' />
+              <text>龙虎榜席位揭秘</text>
+            </view>
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#FFCA43' />
+              <text>专属客服</text>
+            </view>
+          </view>
+          <view class='s-false-box'>
+            <view class='s-false-title'>未享受服务</view>
+            <view class='s-true s-false'>
+              <view class='s-true-item'>
+                <icon type="success_no_circle" size="20" color='#b2b2b2' />
+                <text>龙虎榜私享会</text>
+              </view>
+              <view class='s-true-item'>
+                <icon type="success_no_circle" size="20" color='#b2b2b2' />
+                <text>助理微信</text>
+              </view>
+            </view>
+          </view>
+        </view>
+      </swiper-item>
+      <swiper-item>
+        <view class='swiper-item'>
+          <view class='s-top-box-right'>
+            <view class='s-title'>龙虎榜实战训练营</view>
+            <view class='s-price'>
+              <text>¥ </text>
+              <text class='s-prive-text'>16800 </text>
+            </view>
+            <view class='s-date'>服务期限：90天</view>
+          </view>
+          <view class='s-true'>
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#F64D41' />
+              <text>龙虎榜精选股票</text>
+            </view>
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#F64D41' />
+              <text>龙虎日报</text>
+            </view>
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#F64D41' />
+              <text>龙虎榜实战课程</text>
+            </view>
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#F64D41' />
+              <text>龙虎榜私享会</text>
+            </view>
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#F64D41' />
+              <text>龙虎榜基础教程</text>
+            </view>
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#F64D41' />
+              <text>服务平台</text>
+            </view>
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#F64D41' />
+              <text>龙虎榜席位揭秘</text>
+            </view>
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#F64D41' />
+              <text>专属客服</text>
+            </view>
+            <view class='s-true-item'>
+              <icon type="success_no_circle" size="20" color='#F64D41' />
+              <text>助理微信</text>
+            </view>
+          </view>
+          <view class='s-false-box' wx:if="{{false}}">
+            <view class='s-false-title'>未享受服务</view>
+            <view class='s-true s-false'>
+            </view>
+          </view>
+        </view>
+      </swiper-item>-->
+    </swiper>
+  </view>
+  <view class='abvantage'>
+    <image class='title-img' src='http://m8.zqt888.cn/images/product/title1.png'></image>
+    <image class='a-img' src='http://m8.zqt888.cn/images/product/advantage.png'></image>
+  </view>
+  <view class='introduce'>
+    <image class='title-img' src='http://m8.zqt888.cn/images/product/title1.png'></image>
+    <view class='i-items'>
+      <view class='i-item'>
+        <text class='i-title'>梳理</text>
+        <text class='i-text'>理清交易席位</text>
+      </view>
+      <view class='i-item'>
+        <text class='i-title'>判别</text>
+        <text>理清交易席位</text>
+      </view>
+      <view class='i-item'>
+        <text class='i-title'>洞悉</text>
+        <text class='i-text'>洞悉重要席位与资金进出</text>
+      </view>
+      <view class='i-item'>
+        <text class='i-title'>察觉</text>
+        <text class='i-text'>察觉连续上榜及一字板动态</text>
+      </view>
+      <view class='i-item'>
+        <text class='i-title'>剖析</text>
+        <text class='i-text'>剖析大宗交易中的奥秘及各路资金的表现</text>
+      </view>
+      <view class='i-item'>
+        <text class='i-title'>机构</text>
+        <text class='i-text'>判别真假机构</text>
+      </view>
+    </view>
+  </view>
+  <view class='grade'>
+    <image class='title-img' src='http://m8.zqt888.cn/images/product/title3.png'></image>
+    <view class='g-video'>
+      <video poster="http://8.zqt888.cn/images/home/flash.jpg" src='http://video.91bee.com/57aead4cf3734f45982c896f0dcba29a/614a45dd6ea74245be00dc001a2b2246-S00000001-100000.m3u8'></video>
+    </view>
+    <view class='g-content'>
+      <view class='g-title'>汉钟精机 (002158)</view>
+      <view class='g-text'>
+        <view class='g-text-left'>
+          <view class='g-text-num'>64.84%</view>
+          <view class='g-text-des'>最高收益率</view>
+        </view>
+        <view class='g-text-line'></view>
+        <view class='g-text-right'>
+          <view>04月24日：买入 12.80元</view>
+          <view>05月04日：卖出 21.10元</view>
+        </view>
+      </view>
+
+    </view>
+    <view class='g-video'>
+      <video poster="http://8.zqt888.cn/images/home/flash.jpg" src='http://video.91bee.com/fa0d98b8372a4736ab6f82fbe65f5d66/a8c61adac00d4165a95208751263fada-S00000001-100000.m3u8'></video>
+    </view>
+    <view class='g-content'>
+      <view class='g-title'>南国置业 (002305)</view>
+      <view class='g-text'>
+        <view class='g-text-left'>
+          <view class='g-text-num'>40.96%</view>
+          <view class='g-text-des'>最高收益率</view>
+        </view>
+        <view class='g-text-line'></view>
+        <view class='g-text-right'>
+          <view>06月02日：买入5.42元 </view>
+          <view>06月08日：卖出7.64元</view>
+        </view>
+      </view>
+
+    </view>
+    <view class='g-video'>
+      <video poster="http://8.zqt888.cn/images/home/flash.jpg" src='http://video.91bee.com/c7416da905d04b449cf209e04b812dc2/340d8dcb45064a1994a49eeff66007e2-S00000001-100000.m3u8'></video>
+    </view>
+    <view class='g-content'>
+      <view class='g-title'>当升科技 (300073)</view>
+      <view class='g-text'>
+        <view class='g-text-left'>
+          <view class='g-text-num'>31.98%</view>
+          <view class='g-text-des'>最高收益率</view>
+        </view>
+        <view class='g-text-line'></view>
+        <view class='g-text-right'>
+          <view>06月06日：买入18.45元 </view>
+          <view>06月20日：卖出24.35元</view>
+        </view>
+      </view>
+
+    </view>
+  </view>
+  <view class='description'>
+    <image class='title-img' src='http://m8.zqt888.cn/images/product/title4.png'></image>
+    <view class='d-video'>
+      <video src='http://video.91bee.com/bcb8fb39e4e9486b9268ad2a0f00a494/076151e5bc364574b3147b5eb8f5e188-S00000001-100000.m3u8'></video>
+    </view>
+    <view class="d-content">
+      <view>
+        　　从业25年之久的老法师张姚经过多年的实战经验、数据分析以及反复验证，独创实战型交易战法——龙虎榜战法，通过对各大机构席位（包括基金、券商自营、券商理财、社保、保险、QFII等），游资席位（中信系、光大系、华泰系、国泰君安系等不同系别、以及温州帮、佛山帮、成都帮、山东帮等不同帮派）的交易席位的数据，深入了解参与个股的资金实力，及时把握主力动向；解密个股异动下的背后逻辑，挖掘隐藏资金背后的真正主力，进而捕捉短线牛股。让您投资路上不再孤独，从此踏上与主力同行之路，获取更好收益。</view>
+      <view>　　洞悉主力动向，坐享超额收益——《龙虎榜实战训练营》课程将通过战法的方法论和实战案例为您深度剖析如下疑难问题：①机构与游资的不同操作手法②辨识真假主力如何运作③不同派别席位参与的逻辑④连续上榜及一字板的玄机⑤大宗交易中的隐藏奥秘，以及各路不同资金的表现。
+      </view>
+    </view>
+ </view>
+  <view class='qr-box'>
+    <image class='qr-img' src='../../images/zqt-qr.jpg'></image>
+    <view class='qr-text'>
+      <view>扫码或复制微信号添加客服</view>
+      <view>
+      <text>微信号：</text>
+      <text selectable='true' class='wx-num'>zqt178888</text>
+      </view>
+    </view>
+  </view>
+</view>

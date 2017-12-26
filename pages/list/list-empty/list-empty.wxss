@@ -1,0 +1,27 @@
+.list-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #272727;
+}
+
+.empty-tip {
+    font-size: 34rpx;
+}
+
+.empty-btn {
+    font-size: 36rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    width: 300rpx;
+    text-align: center;
+    color: #fff;
+    background-color: #fb6a2b;
+    margin-top: 30rpx;
+    border-radius: 10rpx;
+}
+.empty-img{
+  width: 175rpx;
+  height: 163rpx;
+  margin: 90rpx auto;
+}

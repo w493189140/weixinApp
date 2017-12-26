@@ -1,0 +1,28 @@
+<template name="list-template">
+  <view  catchtap='onScrollTap' class='video-item' data-id='{{id}}'>
+    <view class='video-top'>
+        <view class='video-img-box'>
+            <image class='video-img' src='{{basePath+img}}'></image>
+            <view wx:if="{{zhuangtai==1}}" class="video-identity zb">直播中</view>
+             <view wx:if="{{zhuangtai==2}}" class="video-identity zb">回看</view>
+            <view class="video-time">时间：{{modifyTime}}</view>
+            <view class='video-icon-container'>
+              <image class='video-icon' src='/images/icon_play.png'></image>
+            </view>
+        </view>
+        <view class='video-info'>
+            <view class='video-text'>
+                {{title}}
+            </view>
+            <view class='video-price'>
+                <text class='video-num'>¥{{price}}</text>
+                <text class='video-buy'>观看</text>
+            </view>
+        </view>
+    </view>
+
+    <view wx:if="{{isok}}" class='countdown'>
+        <icon type="warn" size="18" /> 距离失效时间还有：13时24分45秒
+    </view>
+</view>
+</template>

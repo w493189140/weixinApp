@@ -1,0 +1,65 @@
+<view class="container">
+  <view class='header'>
+    <image class='head-img' src='http://m8.zqt888.cn/images/jcf/jcf_topbanner.jpg'></image>
+    <view class='style'>
+      <view class='s-title'>主题情报站</view>
+      <view class='s-price'>
+        <text>¥ </text>
+        <text class='s-prive-text'>8888 </text>
+      </view>
+      <text class='s-date'>服务期限：45天</text>
+      <view class='s-oldprice'>
+        <text>原价：</text>
+        <text>¥ </text>
+        <text>9999</text>
+        <text class='s-oldprice-date'> /45天</text>
+        <view class='oldprice-line'></view>
+      </view>
+      <text class='s-descripte'>课程包含以下服务</text>
+      <view class='s-content'>
+        <view class='s-icon'>
+          <image class='s-icon-img' src='http://m8.zqt888.cn/images/product/icon_zt_select.png'></image>
+          <text class='s-icon-text'>主题精选</text>
+        </view>
+        <view class='s-icon'>
+          <image class='s-icon-img' src='http://m8.zqt888.cn/images/product/icon_zt_course.png'></image>
+          <text class='s-icon-text'>主题课程</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='content'>
+    <view class='abvantage'>
+      <image class='title' src='http://m8.zqt888.cn/images/jcf/title-chara.png'></image>
+      <image class='a-content' src='http://m8.zqt888.cn/images/jcf/goodness.jpg'></image>
+    </view>
+    <view class='introduce'>
+      <image class='title' src='http://m8.zqt888.cn/images/jcf/title-chara.png'></image>
+      <view class='i-text'>主题投资，又称事件驱动。其本质是外围环境和条件发生变化，使得预期向好，从而引发股价的大幅波动。最大的优点，就是时效性强，短期见效果，纠错成本小。既可以规避掉价值投资的时效长，纠错成本大，又可以提前预判，具有前瞻性，不似技术分析跟随变量，有滞后性。</view>
+    </view>
+    <view class='description'>
+      <image class='title' src='http://m8.zqt888.cn/images/jcf/title-class.png'></image>
+       <image class='d-banner' src="http://m8.zqt888.cn/images/product/ztqbz.jpg" ></image>
+      <view class='i-text'>主题投资，又称事件驱动。其本质是外围环境和条件发生变化，使得预期向好，从而引发股价的大幅波动。最大的优点，就是时效性强，短期见效果，纠错成本小。既可以规避掉价值投资的时效长，纠错成本大，又可以提前预判，具有前瞻性，不似技术分析跟随变量，有滞后性。</view>
+    </view>
+
+    <view class='teacher'>
+      <image class='title' src='http://m8.zqt888.cn/images/jcf/title-teacher.png'></image>
+      <image class='t-banner' src="http://m8.zqt888.cn/images/jcf/jcf_banner.jpg" ></image>
+      <view class='i-text'>姜城芳，证券通高级投资顾问。她热爱投资，从事证券行业工作14年，无论牛熊，都不曾离开。经过这么多年的不断探索，她已对投资驾轻就熟，十分老道。
+                      2011年-2015年，短短四年间，她的操盘成绩是资产翻八倍。从2014年，她开始在主要财经媒体展露头角，曾担任过腾讯财经、天生我财等媒体的特邀嘉宾。</view>
+    </view>
+    <!-- <view class='buy-tip'>*购买请加小蜂客服： <text>xfcj2000</text></view>  -->
+     <view class='qr-box'>
+    <image class='qr-img' src='../../images/zqt-qr.jpg'></image>
+    <view class='qr-text'>
+      <view>扫码或复制微信号添加客服</view>
+      <view>
+      <text>微信号：</text>
+      <text selectable='true' class='wx-num'>zqt178888</text>
+      </view>
+    </view>
+  </view>
+  </view>
+  
+</view>

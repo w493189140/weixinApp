@@ -1,0 +1,45 @@
+<import src="list-template/list-template.wxml" />
+<import src="list-empty/list-empty.wxml" />
+<view class="container">
+    <view class="btn-area" catchtap='onTabTap'>
+        <view data-tabid="1" class="{{currentNum==1?'navigator-hover':'navigator'}}">全部课程</view>
+        <view class='line-vetical'></view>
+        <view data-tabid="2" class="{{currentNum==2?'navigator-hover':'navigator'}}">已观看</view>
+        <view class='line-vetical'></view>
+        <view data-tabid="3" class="{{currentNum==3?'navigator-hover':'navigator'}}">已失效</view>
+    </view>
+    <view class='scroll-box'>
+    <scroll-view class='video-list' scroll-y="true" scroll-x="true" bindscrolltolower="onScrollLower">
+        <!-- <template is="list-template" data="{{...isHide}}"/> -->
+        <!-- <template is="list-template" /> -->
+
+
+
+
+      
+       <view wx:if="{{isEmpty}}">
+        <template is="list-empty" /> 
+       </view>
+        <view wx:else>
+        <block wx:for="{{videos}}" wx:for-item="video">
+            <template is="list-template" data="{{...video,basePath}}" />
+        </block>
+       </view>
+       <view class='no-more-data' wx:if="{{typeId==1&&resultCode==1}}">
+       暂无更多数据
+       </view>
+        <!-- <template is="list-empty" /> -->
+    </scroll-view>
+    </view>
+
+</view>
+
+
+
+ <!-- <scroll-view class="grid-container" scroll-y="true" scroll-x="false" bindscrolltolower="onScrollLower">
+    <block wx:for="{{movies}}" wx:for-item="movie">
+      <view class="single-view-container">
+        <template is="movieTemplate" data="{{...movie}}" />
+      </view>
+    </block>
+  </scroll-view> -->

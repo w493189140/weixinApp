@@ -1,0 +1,122 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='content-title'>股市大直播</view>
+  <view bindtap='dzbTap' class='dzb'>
+    <view class='dzb-box'>
+      <image class='dzb-img' src='http://8.zqt888.cn/images/home/flash.jpg'></image>
+      <view class='dzb-mask'>
+        <image class='dzb-mask-img' src='../../images/icon_play.png'></image>
+      </view>
+    </view>
+    <view class='dzb-toll'>
+      <image class='dzb-icon' src='../../images/icon_user.png'></image>
+      <text class='dzb-name'>张姚</text>
+      <text class='dzb-title'>《解秘龙虎榜》</text>
+      <view class='btn dzb-btn'>进入直播间</view>
+    </view>
+  </view>
+  <view class='content-title'>产品服务</view>
+  <view bindtap='lhbTap' class='pruduct'>
+    <view class='product-top'>
+      <image class='produt-img' src='../../images/lhb.jpg'></image>
+      <view class='product-info'>
+        <text class='product-title'>解密龙虎榜</text>
+        <view class='product-text'>
+          多角度分析确立合理买卖点位，让您在与主力同行过程中获取超越主力
+        </view>
+        <view class='btn product-btn'>查看详情</view>
+      </view>
+    </view>
+    <view class='product-center'>
+      <view class='product-time'>2017-04-23 18:00更新</view>
+      <view class='product-tip'>购买后即可观看</view>
+    </view>
+    <view class='msg'>
+      <view class='msg-item'>
+        <text class='msg-name'>股票代码：</text>
+        <text class='msg-num'>******</text>
+      </view>
+      <view class='msg-item'>
+        <text class='msg-name'>预计目标价：</text>
+        <text class='msg-num'>11.23</text>
+      </view>
+      <view class='msg-item'>
+        <text class='msg-name'>建议买入价：</text>
+        <text class='msg-num'>11.1423</text>
+      </view>
+      <view class='msg-item'>
+        <text class='msg-name'>预计收益率：</text>
+        <text class='msg-num'>34.2%</text>
+      </view>
+    </view>
+  </view>
+
+  <view bindtap='qbzTap' class='pruduct'>
+    <view class='product-top'>
+      <image class='produt-img' src='../../images/qbz.jpg'></image>
+      <view class='product-info'>
+        <text class='product-title'>主题情报站</text>
+        <view class='product-text'>
+          运用专业的财经分析逻辑，选出上涨确定性很大的板块
+        </view>
+        <view class='btn product-btn'>查看详情</view>
+      </view>
+    </view>
+    <view class='product-center'>
+      <view class='product-time'>2017-04-23 18:00更新</view>
+      <view class='product-tip'>购买后即可观看</view>
+    </view>
+    <view class='msg'>
+      <view class='msg-item'>
+        <text class='msg-name'>股票代码：</text>
+        <text class='msg-num'>******</text>
+      </view>
+      <view class='msg-item'>
+        <text class='msg-name'>预计目标价：</text>
+        <text class='msg-num'>11.23</text>
+      </view>
+      <view class='msg-item'>
+        <text class='msg-name'>建议买入价：</text>
+        <text class='msg-num'>11.1423</text>
+      </view>
+      <view class='msg-item'>
+        <text class='msg-name'>预计收益率：</text>
+        <text class='msg-num'>34.2%</text>
+      </view>
+    </view>
+  </view>
+  <view bindtap='chTap' class='pruduct'>
+    <view class='product-top'>
+      <image class='produt-img' src='../../images/ch.jpg'></image>
+      <view class='product-info'>
+        <text class='product-title'>狼帅的股理谐说</text>
+        <view class='product-text'>
+          释放你嗜血的天性，纵容你逐利的本能，你是狼，股市是你的战场。
+        </view>
+        <view class='btn product-btn'>查看详情</view>
+      </view>
+    </view>
+    <view class='product-center'>
+      <view class='product-time'>2017-04-23 18:00更新</view>
+      <view class='product-tip'>购买后即可观看</view>
+    </view>
+    <view class='msg'>
+      <view class='msg-item'>
+        <text class='msg-name'>股票代码：</text>
+        <text class='msg-num'>******</text>
+      </view>
+      <view class='msg-item'>
+        <text class='msg-name'>预计目标价：</text>
+        <text class='msg-num'>11.23</text>
+      </view>
+      <view class='msg-item'>
+        <text class='msg-name'>建议买入价：</text>
+        <text class='msg-num'>11.1423</text>
+      </view>
+      <view class='msg-item'>
+        <text class='msg-name'>预计收益率：</text>
+        <text class='msg-num'>34.2%</text>
+      </view>
+    </view>
+  </view>
+</view>

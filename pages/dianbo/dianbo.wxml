@@ -1,0 +1,8 @@
+<view class='container'>
+<view>
+<include src="../BCLVideo/video.wxml"/>
+</view>
+<view>
+<include src="../BCLVideo/video.wxml"/>
+</view>
+</view>
